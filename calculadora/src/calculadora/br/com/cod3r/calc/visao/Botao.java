@@ -12,6 +12,7 @@ public class Botao extends JButton{
 	
 	public Botao(String texto,Color cor) {
 		setText(texto);
+		setFocusPainted(false);
 		setFont(new Font("courier", Font.PLAIN, 25));
 		setOpaque(true);
 		setBackground(cor);
